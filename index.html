@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Jlaja</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:200|Lato:300|Work+Sans:300" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+
+
+  </head>
+  <body>
+    <!-- Bootstrap JS -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+    <!-- Loading -->
+    <div id="loading"></div>
+
+    <div id="map"></div>
+
+    <div id="page">
+      <!-- Top NavBar -->
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h5 class="text-white h4">Coming Soon !</h5>
+            <span class="text-muted">We will be right back</span>
+          </div>
+        </div>
+        <nav id="jlaja-top-nav" class="navbar navbar-dark jlaja-top-nav">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-user-circle jlaja-prof-pic"></i>
+          </button>
+          <a class="navbar-brand mx-auto jlaja-icon" href="#none"><img class="img-responsive jlaja-icon" src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765528/icon.png" alt="jlaja-icon"></a>
+        </nav>
+      </div>
+
+      <!-- Carousel -->
+      <header class="jlaja-carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765590/carousel-wae_rebo_flores.jpg" alt="First slide">
+              <div class="carousel-caption d-none d-sm-block">
+               <h5>Visit Wae Rebo, Flores!</h5>
+               <p>The traditional village of Wae Rebo in the district of Manggarai on the island of Flores, East Nusa Tenggara, has received the Top Award of Excellence from UNESCO in the 2012 UNESCO Asia Pacific Heritage Awards, announced in Bangkok on 27 August 2012.</p>
+             </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765598/carousel-seminyak_bali.jpg" alt="Second slide">
+              <div class="carousel-caption d-none d-sm-block">
+               <h5>Visit Seminyak, Bali!</h5>
+               <p>The traditional village of Wae Rebo in the district of Manggarai on the island of Flores, East Nusa Tenggara, has received the Top Award of Excellence from UNESCO in the 2012 UNESCO Asia Pacific Heritage Awards, announced in Bangkok on 27 August 2012.</p>
+             </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765574/carousel-raja_ampat_papua.jpg" alt="Third slide">
+              <div class="carousel-caption d-none d-sm-block">
+               <h5>Visit Raja Ampat, Papua!</h5>
+               <p>The traditional village of Wae Rebo in the district of Manggarai on the island of Flores, East Nusa Tenggara, has received the Top Award of Excellence from UNESCO in the 2012 UNESCO Asia Pacific Heritage Awards, announced in Bangkok on 27 August 2012.</p>
+             </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </header>
+
+      <!-- Search Bar class="jlaja-search-bar"-->
+      <div class="form-row mx-auto jlaja-search-bar">
+          <label for="inputFrom" class="col-sm-1 d-none d-sm-block col-form-label jlaja-search-bar-from">from</label>
+          <div class="col-sm-4 col-5">
+            <input type="text" class="form-control jlaja-search-bar-from" id="inputFrom">
+          </div>
+          <label for="inputTo" class="col-sm-1 d-none d-sm-block col-form-label jlaja-search-bar-to">to</label>
+          <div class="col-sm-4 col-5">
+            <input type="text" class="form-control jlaja-search-bar-to" id="inputTo">
+          </div>
+          <div class="col-sm-2 col-2">
+            <button type="submit" class="btn btn-muted btn-outline-primary">Go!</button>
+          </div>
+      </div>
+
+      <!-- Main Navigation class="jlaja-main-nav"-->
+      <nav class="jlaja-main-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-6 jlaja-main-nav my-auto">
+              <a href="#flights">
+                <figure>
+                  <i class="fas fa-plane"></i>
+                  <span>Flights</span>
+                </figure>
+              </a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-6 jlaja-main-nav my-auto">
+              <a href="#accomodation">
+                <figure>
+                  <i class="fas fa-home"></i>
+                  <span>Accomodation</span>
+                </figure>
+              </a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-6 jlaja-main-nav my-auto">
+              <a href="#transportation">
+                <figure>
+                  <i class="fas fa-taxi"></i>
+                  <span>Transportation</span>
+                </figure>
+              </a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-6 jlaja-main-nav my-auto">
+              <a href="#culinary">
+                <figure>
+                  <i class="fas fa-utensils"></i>
+                  <span>Culinary</span>
+                </figure>
+              </a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-6 jlaja-main-nav my-auto">
+              <a href="#opentrip">
+                <figure>
+                  <i class="fas fa-bicycle"></i>
+                  <span>Open Trip</span>
+                </figure>
+              </a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-6 jlaja-main-nav my-auto">
+              <a href="#tourntravel">
+                <figure>
+                  <i class="fas fa-rocket"></i>
+                  <span>Tour &amp; Travel</span>
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Adventure class="jlaja-adventure"-->
+      <section class="jlaja-adventure">
+        <button type="button" class="btn btn-light">Create Your Own Adventure!</button>
+      </section>
+
+      <!-- Recommendation class="jlaja-recommend"-->
+      <section class="jlaja-recommend-container">
+        <section class="jlaja-recommend">
+          <h4 id="authentic-indonesia-header">Authentic Indonesia</h4>
+          <i id="authentic-indonesia-button"></i><hr class="horizontal-line">
+          <nav id="authentic-indonesia-nav">
+            <a href="#wae_rebo">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765596/r-wae_rebo.png" alt="Wae Rebo">
+                <figcaption>
+                  <h6>Wae Rebo</h6>
+                  <div class="jlaja-recommend-location">
+                    Flores, East Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    4d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-unesco.png" alt="unesco-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765596/c-r-mountain.png" alt="mountain-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#tana_toraja">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765556/r-tana_toraja.png" alt="Tana Toraja">
+                <figcaption>
+                  <h6>Tana Toraja</h6>
+                  <div class="jlaja-recommend-location">
+                    Celebes, East Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    3d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#pantai_tangsi">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765580/r-pantai_tangsi.png" alt="Pantai Tangsi">
+                <figcaption>
+                  <h6>Pantai Tangsi</h6>
+                  <div class="jlaja-recommend-location">
+                    Lombok, East Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    4d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765592/c-r-beach.png" alt="beach-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765601/c-r-googles.png" alt="googles-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#bunaken">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765596/r-bunaken.png" alt="Bunaken">
+                <figcaption>
+                  <h6>Bunaken</h6>
+                  <div class="jlaja-recommend-location">
+                    Celebes, East Inodonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    3d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765592/c-r-beach.png" alt="beach-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765601/c-r-googles.png" alt="googles-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#old_batavia">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765591/r-old_batavia.png" alt="Old Batavia">
+                <figcaption>
+                  <h6>Old Batavia</h6>
+                  <div class="jlaja-recommend-location">
+                  Jakarta, West Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                  2d
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765593/c-r-city.png" alt="city-badge">
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-time.png" alt="time-badge">
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765594/c-r-monument.png" alt="monument-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#mt_dieng">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765539/r-mt_dieng.png" alt="Mt. Dieng">
+                <figcaption>
+                  <h6>Mt. Dieng</h6>
+                  <div class="jlaja-recommend-location">
+                  Java, Middle Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                  4d
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-unesco.png" alt="unesco-badge">
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765596/c-r-mountain.png" alt="mountain-badge">
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </nav>
+        </section>
+        <section class="jlaja-recommend">
+          <h4 id="recommended-trips-header">Recommended Trips</h4>
+          <i id="recommended-trips-button"></i><hr class="horizontal-line">
+          <nav id="recommended-trips-nav">
+            <a href="#ubud_uluwatu">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765602/r-ubud_uluwatu.png" alt="Ubud &amp; Uluwatu">
+                <figcaption>
+                  <h6>Ubud &amp; Uluwatu</h6>
+                  <div class="jlaja-recommend-location">
+                    Bali, Middle Indonesia
+                  </div>
+                  <div class="jlaja-recommend-caption">
+                    3d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765591/c-r-animal.png" alt="animal-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#komodo_island">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765547/r-komodo_island.png" alt="Komodo Island">
+                <figcaption>
+                  <h6>Komodo Island</h6>
+                  <div class="jlaja-recommend-location">
+                    Celebes, East Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    3d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765591/c-r-animal.png" alt="animal-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#raja_ampat">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765545/r-raja_ampat.png" alt="Raja Ampat">
+                <figcaption>
+                  <h6>Raja Ampat</h6>
+                  <div class="jlaja-recommend-location">
+                    Papua, East Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    4d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-unesco.png" alt="unesco-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765596/c-r-mountain.png" alt="mountain-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+            </figure>
+            </a>
+            <a href="#wae_rebo">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765596/r-wae_rebo.png" alt="Wae Rebo">
+                <figcaption>
+                  <h6>Wae Rebo</h6>
+                  <div class="jlaja-recommend-location">
+                    Flores, East Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    4d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-unesco.png" alt="unesco-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765596/c-r-mountain.png" alt="mountain-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#tana_toraja">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765556/r-tana_toraja.png" alt="Tana Toraja">
+                <figcaption>
+                  <h6>Tana Toraja</h6>
+                  <div class="jlaja-recommend-location">
+                    Celebes, East Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    3d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#pantai_tangsi">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765580/r-pantai_tangsi.png" alt="Pantai Tangsi">
+                <figcaption>
+                  <h6>Pantai Tangsi</h6>
+                  <div class="jlaja-recommend-location">
+                    Lombok, East Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    4d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765592/c-r-beach.png" alt="beach-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765601/c-r-googles.png" alt="googles-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </nav>
+        </section>
+        <section class="jlaja-recommend">
+          <h4 id="popular-picks-header">Popular Picks</h4>
+          <i id="popular-picks-button"></i><hr class="horizontal-line">
+          <nav id="popular-picks-nav">
+            <a href="#bunaken">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765596/r-bunaken.png" alt="Bunaken">
+                <figcaption>
+                  <h6>Bunaken</h6>
+                  <div class="jlaja-recommend-location">
+                    Celebes, East Inodonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    3d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765592/c-r-beach.png" alt="beach-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765601/c-r-googles.png" alt="googles-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#old_batavia">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765591/r-old_batavia.png" alt="Old Batavia">
+                <figcaption>
+                  <h6>Old Batavia</h6>
+                  <div class="jlaja-recommend-location">
+                  Jakarta, West Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                  2d
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765593/c-r-city.png" alt="city-badge">
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-time.png" alt="time-badge">
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765594/c-r-monument.png" alt="monument-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#mt_dieng">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765539/r-mt_dieng.png" alt="Mt. Dieng">
+                <figcaption>
+                  <h6>Mt. Dieng</h6>
+                  <div class="jlaja-recommend-location">
+                  Java, Middle Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                  4d
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-unesco.png" alt="unesco-badge">
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765596/c-r-mountain.png" alt="mountain-badge">
+                  <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#ubud_uluwatu">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765602/r-ubud_uluwatu.png" alt="Ubud &amp; Uluwatu">
+                <figcaption>
+                  <h6>Ubud &amp; Uluwatu</h6>
+                  <div class="jlaja-recommend-location">
+                    Bali, Middle Indonesia
+                  </div>
+                  <div class="jlaja-recommend-caption">
+                    3d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765591/c-r-animal.png" alt="animal-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="komodo_island">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765547/r-komodo_island.png" alt="Komodo Island">
+                <figcaption>
+                  <h6>Komodo Island</h6>
+                  <div class="jlaja-recommend-location">
+                    Celebes, East Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    3d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765591/c-r-animal.png" alt="animal-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#raja_ampat">
+              <figure>
+                <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765545/r-raja_ampat.png" alt="Raja Ampat">
+                <figcaption>
+                  <h6>Raja Ampat</h6>
+                  <div class="jlaja-recommend-location">
+                    Papua, East Indonesia</div>
+                  <div class="jlaja-recommend-caption">
+                    4d
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-unesco.png" alt="unesco-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765596/c-r-mountain.png" alt="mountain-badge">
+                    <img src="http://res.cloudinary.com/jlaja/image/upload/q_auto:eco/v1524765527/c-r-wheat.png" alt="wheat-badge">
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </nav>
+        </section>
+      </section>
+
+      <!-- Bottom Navigation class="jlaja-bottom-nav" -->
+      <footer class="jlaja-bottom-nav">
+        <nav class="navbar fixed-bottom navbar-light justify-content-center">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#none">
+                <i class="fas fa-binoculars"></i>
+                <span>Explore</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#none">
+                <i class="fas fa-heart"></i>
+                <span>Saved</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#none">
+                <i class="fas fa-edit"></i>
+                <span>Booking</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#none">
+                <i class="fas fa-comments"></i>
+                <span>Chat</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#none">
+                <i class="fas fa-map"></i>
+                <span>Quest</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
